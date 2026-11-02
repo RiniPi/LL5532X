@@ -1,0 +1,16 @@
+rank_in_topic,topic_label,topic_index,topic_weight,is_landmark,title,itemid,finding,year,hudoc_url
+1,Military & State Intelligence,36,0.4914,2,CASE OF AL NASHIRI v. POLAND,001-146044,Violation,2014,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-146044%22]}
+2,Military & State Intelligence,36,0.4911,3,CASE OF AL NASHIRI v. ROMANIA,001-183685,Violation,2018,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-183685%22]}
+3,Military & State Intelligence,36,0.4893,2,CASE OF HUSAYN (ABU ZUBAYDAH) v. POLAND,001-146047,Violation,2014,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-146047%22]}
+4,Military & State Intelligence,36,0.4778,3,CASE OF ABU ZUBAYDAH v. LITHUANIA,001-183687,Violation,2018,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-183687%22]}
+5,Military & State Intelligence,36,0.3485,1,"CASE OF EL-MASRI v. ""THE FORMER YUGOSLAV REPUBLIC OF MACEDONIA""",001-115621,Violation,2012,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-115621%22]}
+1,Same-Sex & Gender Rights,24,0.3632,1,CASE OF SCHALK AND KOPF v. AUSTRIA,001-99605,No Violation,2010,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-99605%22]}
+2,Same-Sex & Gender Rights,24,0.3369,1,CASE OF HÄMÄLÄINEN v. FINLAND,001-145768,No Violation,2014,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-145768%22]}
+3,Same-Sex & Gender Rights,24,0.3226,3,CASE OF OLIARI AND OTHERS v. ITALY,001-156265,Violation,2015,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-156265%22]}
+4,Same-Sex & Gender Rights,24,0.3173,3,CASE OF ORLANDI AND OTHERS v. ITALY,001-179547,Violation,2017,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-179547%22]}
+5,Same-Sex & Gender Rights,24,0.3169,1,CASE OF VALLIANATOS AND OTHERS v. GREECE,001-128294,Violation,2013,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-128294%22]}
+1,Data Protection & Privacy,35,0.4336,1,CASE OF BREYER v. GERMANY,001-200442,No Violation,2020,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-200442%22]}
+2,Data Protection & Privacy,35,0.3688,3,CASE OF BENEDIK v. SLOVENIA,001-182455,Violation,2018,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-182455%22]}
+3,Data Protection & Privacy,35,0.3539,3,CASE OF P.N. v. GERMANY,001-202758,No Violation,2020,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-202758%22]}
+4,Data Protection & Privacy,35,0.3371,4,CASE OF SURIKOV v. UKRAINE,001-170462,Violation,2017,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-170462%22]}
+5,Data Protection & Privacy,35,0.3351,3,CASE OF CENTRUM FÖR RÄTTVISA v. SWEDEN,001-183863,No Violation,2018,https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-183863%22]}

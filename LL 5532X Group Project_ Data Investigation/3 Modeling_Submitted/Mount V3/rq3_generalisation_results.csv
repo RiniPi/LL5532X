@@ -1,0 +1,5 @@
+Direction,Classifier,F1,Accuracy,Precision,Recall
+Western → Eastern,SVM,0.9299,0.9299,0.9299,0.9299
+Western → Eastern,Naive Bayes,0.8935,0.8969,0.8914,0.8969
+Eastern → Western,SVM,0.7731,0.775,0.7883,0.775
+Eastern → Western,Naive Bayes,0.4191,0.5179,0.587,0.5179

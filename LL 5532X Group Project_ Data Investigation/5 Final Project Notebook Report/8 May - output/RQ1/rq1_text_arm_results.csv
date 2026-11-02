@@ -1,0 +1,10 @@
+Variant,Classifier,F1_macro,F1_macro_std,Accuracy,Precision,Recall
+V2_Law_Full,SVM,0.9038,0.0214,0.9344,0.911,0.8975
+V3_Law_Clean,SVM,0.8704,0.0189,0.9146,0.8938,0.8533
+V2_Law_Full,Logistic Regression,0.8564,0.0185,0.8917,0.8357,0.8888
+V3_Law_Clean,Logistic Regression,0.8167,0.0285,0.8593,0.7959,0.8541
+V2_Law_Full,Naive Bayes,0.7862,0.0279,0.8593,0.8048,0.7722
+V3_Law_Clean,Naive Bayes,0.7457,0.0166,0.8356,0.7685,0.7305
+V1_Facts,Logistic Regression,0.6944,0.0368,0.7549,0.6839,0.7326
+V1_Facts,SVM,0.6679,0.0304,0.8126,0.7473,0.6467
+V1_Facts,Naive Bayes,0.5419,0.0506,0.7249,0.5578,0.541

@@ -1,0 +1,18 @@
+--- High Drift Cluster (dL) Analysis ---
+Total terms in High Drift Cluster: 2
+
+--- Visualizing with Nearest Neighbours, t-SNE, and Concordances for High Drift Cluster ---
+
+Processing focal term: 'correspondence'
+Generating Nearest Neighbour Comparison for 'correspondence'
+  Nearest Neighbour table saved to /content/nn_table_correspondence.html
+Generating t-SNE for 'correspondence'
+Generating Concordances for 'correspondence':
+  Concordances saved to /content/concordances_correspondence.html
+
+Processing focal term: 'home'
+Generating Nearest Neighbour Comparison for 'home'
+  Nearest Neighbour table saved to /content/nn_table_home.html
+Generating t-SNE for 'home'
+Generating Concordances for 'home':
+  Concordances saved to /content/concordances_home.html

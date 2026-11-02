@@ -1,0 +1,14 @@
+term,dL,dL_cluster
+correspondence,1.0,Q4 (dL > 0.980) - High Drift
+home,1.0,Q4 (dL > 0.980) - High Drift
+democratic,0.9795918367346939,Q3 (0.958 < dL <= 0.980) - Moderate Drift
+safety,0.9795918367346939,Q3 (0.958 < dL <= 0.980) - Moderate Drift
+security,0.9583333333333334,Q2 (0.889 < dL <= 0.958) - Moderate Drift
+necessary,0.9583333333333334,Q2 (0.889 < dL <= 0.958) - Moderate Drift
+family_life,0.9583333333333334,Q2 (0.889 < dL <= 0.958) - Moderate Drift
+positive_obligation,0.9361702127659575,Q2 (0.889 < dL <= 0.958) - Moderate Drift
+integrity,0.9130434782608696,Q2 (0.889 < dL <= 0.958) - Moderate Drift
+private_life,0.8888888888888888,Q1 (dL <= 0.889) - Low Drift
+proportionate,0.8888888888888888,Q1 (dL <= 0.889) - Low Drift
+margin,0.8636363636363636,Q1 (dL <= 0.889) - Low Drift
+margin_appreciation,0.8095238095238095,Q1 (dL <= 0.889) - Low Drift

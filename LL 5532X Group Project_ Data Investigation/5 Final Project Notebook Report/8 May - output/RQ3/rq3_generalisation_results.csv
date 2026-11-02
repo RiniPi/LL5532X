@@ -1,0 +1,5 @@
+Direction,Classifier,F1_macro,Accuracy,Precision_macro,Recall_macro
+Western → Eastern,SVM,0.8546,0.9299,0.8546,0.8546
+Eastern → Western,SVM,0.7735,0.775,0.7869,0.7771
+Western → Eastern,Naive Bayes,0.7724,0.8969,0.7924,0.7562
+Eastern → Western,Naive Bayes,0.4241,0.5179,0.5853,0.5267

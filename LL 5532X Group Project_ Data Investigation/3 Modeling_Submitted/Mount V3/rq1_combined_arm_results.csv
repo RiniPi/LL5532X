@@ -1,0 +1,2 @@
+Model,F1,F1std,Accuracy,Precision,Recall
+Combined_SVM,0.887,0.0126,0.8941,0.8925,0.8941
