@@ -1,4 +1,20 @@
 # Old versions and large generated outputs
 Archive/
-article8_violation_vs_no_violation*.html
+article8_*violation_vs_no_violation*.html
+article8_rq3.html
 full_texts.json
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office lock / temp files
+~$*
