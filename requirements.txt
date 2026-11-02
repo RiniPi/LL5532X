@@ -1,0 +1,29 @@
+# Python packages used across the notebooks (originally run on Google Colab).
+# Versions are not pinned because the notebooks did not record them.
+
+# Core data / ML
+numpy
+pandas
+pyarrow          # read data/echr_art8_filtered.parquet
+scipy
+scikit-learn
+imbalanced-learn # SMOTE
+pycaret          # notebooks/05_final_project_pycaret_v1.ipynb
+
+# NLP
+nltk
+spacy
+gensim           # word2vec models in models/
+scattertext
+shifterator
+
+# Visualisation
+matplotlib
+seaborn
+plotly
+kaleido          # static export of plotly figures
+
+# Utilities
+gdown            # download shared files from Google Drive
+pydantic
+ipython
