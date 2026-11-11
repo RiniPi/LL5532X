@@ -1,3 +1,19 @@
+---
+title: Full analysis notebook
+nav_order: 6
+description: "The complete final project notebook (Part 5) with all code outputs, figures and discussion for RQ1–RQ4."
+---
+
+{: .note }
+This page is the final project notebook exported to Markdown. It is long (about 5,000 lines, 57 figures). Use the table of contents below or the site search to jump to a section. The source notebook is [`notebooks/05_final_project_v4.ipynb`](https://github.com/RiniPi/LL5532X/blob/main/notebooks/05_final_project_v4.ipynb).
+
+<details open markdown="block">
+  <summary>Table of contents</summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 Group No: 1 
 Group Members: Amanda Lim Jin Mei, Nicha Nutchayangkul, Rini Pinasthika, Sophia Emily Lin
 Course/Module: LL5532X
@@ -1464,7 +1480,7 @@ identified and mapped systematically using unsupervised topic modelling.
 
 
 
-![Scatter Text - Facts Section](LL5532X_Pt_5_Final_Project_Notebook_Group_1_v4_files/Image 2.png)
+![Scatter Text - Facts Section](LL5532X_Pt_5_Final_Project_Notebook_Group_1_v4_files/Image%202.png)
 
 The Facts section scatter plot reveals spatially distinct vocabulary clusters. On the
 violation side, terms such as "cia", "secret", "detainees", "military", "prisoners",
@@ -2584,31 +2600,31 @@ We identified the most representative landmark case from each of the three topic
          Case   : CASE OF HUSAYN (ABU ZUBAYDAH) v. POLAND
          ItemID : 001-146047
          Outcome: Violation  |  Year: 2014)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-146047%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-146047%22]%7D
     
       2. [0.4948] Importance: 2
          Case   : CASE OF AL NASHIRI v. POLAND
          ItemID : 001-146044
          Outcome: Violation  |  Year: 2014)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-146044%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-146044%22]%7D
     
       3. [0.4934] Importance: 3
          Case   : CASE OF AL NASHIRI v. ROMANIA
          ItemID : 001-183685
          Outcome: Violation  |  Year: 2018)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-183685%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-183685%22]%7D
     
       4. [0.4758] Importance: 3
          Case   : CASE OF ABU ZUBAYDAH v. LITHUANIA
          ItemID : 001-183687
          Outcome: Violation  |  Year: 2018)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-183687%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-183687%22]%7D
     
       5. [0.4311] Importance: 3
          Case   : CASE OF BIG BROTHER WATCH AND OTHERS v. THE UNITED KINGDOM
          ItemID : 001-186048
          Outcome: Violation  |  Year: 2018)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-186048%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-186048%22]%7D
 
 
 ​    
@@ -2622,31 +2638,31 @@ We identified the most representative landmark case from each of the three topic
 ​         Case   : CASE OF SCHALK AND KOPF v. AUSTRIA
 ​         ItemID : 001-99605
 ​         Outcome: No Violation  |  Year: 2010)
-​         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-99605%22]}
+​         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-99605%22]%7D
 ​    
       2. [0.4539] Importance: 1
          Case   : CASE OF HÄMÄLÄINEN v. FINLAND
          ItemID : 001-145768
          Outcome: No Violation  |  Year: 2014)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-145768%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-145768%22]%7D
     
       3. [0.4256] Importance: 3
          Case   : CASE OF OLIARI AND OTHERS v. ITALY
          ItemID : 001-156265
          Outcome: Violation  |  Year: 2015)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-156265%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-156265%22]%7D
     
       4. [0.4191] Importance: 3
          Case   : CASE OF ORLANDI AND OTHERS v. ITALY
          ItemID : 001-179547
          Outcome: Violation  |  Year: 2017)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-179547%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-179547%22]%7D
     
       5. [0.4157] Importance: 1
          Case   : CASE OF VALLIANATOS AND OTHERS v. GREECE
          ItemID : 001-128294
          Outcome: Violation  |  Year: 2013)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-128294%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-128294%22]%7D
 
 
 ​    
@@ -2660,31 +2676,31 @@ We identified the most representative landmark case from each of the three topic
 ​         Case   : CASE OF B. v. SWITZERLAND
 ​         ItemID : 001-205675
 ​         Outcome: Violation  |  Year: 2020)
-​         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-205675%22]}
+​         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-205675%22]%7D
 ​    
       2. [0.2286] Importance: 2
          Case   : CASE OF DI TRIZIO v. SWITZERLAND
          ItemID : 001-160692
          Outcome: Violation  |  Year: 2016)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-160692%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-160692%22]%7D
     
       3. [0.2141] Importance: 2
          Case   : CASE OF TOPČIĆ-ROSENBERG v. CROATIA
          ItemID : 001-128053
          Outcome: Violation  |  Year: 2013)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-128053%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-128053%22]%7D
     
       4. [0.2077] Importance: 3
          Case   : CASE OF YOCHEVA AND GANEVA v. BULGARIA
          ItemID : 001-209866
          Outcome: Violation  |  Year: 2021)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-209866%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-209866%22]%7D
     
       5. [0.2076] Importance: 3
          Case   : CASE OF DHAHBI v. ITALY
          ItemID : 001-142504
          Outcome: Violation  |  Year: 2014)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-142504%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-142504%22]%7D
 
 
 ​    
@@ -2698,31 +2714,31 @@ We identified the most representative landmark case from each of the three topic
 ​         Case   : CASE OF M.G.C. v. ROMANIA
 ​         ItemID : 001-161380
 ​         Outcome: Violation  |  Year: 2016)
-​         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-161380%22]}
+​         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-161380%22]%7D
 ​    
       2. [0.2611] Importance: 4
          Case   : CASE OF Ž.B. v. CROATIA
          ItemID : 001-175142
          Outcome: Violation  |  Year: 2017)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-175142%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-175142%22]%7D
     
       3. [0.2608] Importance: 2
          Case   : CASE OF C.A.S. AND C.S. v. ROMANIA
          ItemID : 001-109741
          Outcome: Violation  |  Year: 2012)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-109741%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-109741%22]%7D
     
       4. [0.2534] Importance: 4
          Case   : CASE OF E.B. v. ROMANIA
          ItemID : 001-191749
          Outcome: Violation  |  Year: 2019)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-191749%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-191749%22]%7D
     
       5. [0.2471] Importance: 1
          Case   : CASE OF C. v. ROMANIA
          ItemID : 001-218933
          Outcome: Violation  |  Year: 2022)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-218933%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-218933%22]%7D
 
 
 ​    
@@ -2736,31 +2752,31 @@ We identified the most representative landmark case from each of the three topic
 ​         Case   : CASE OF BREYER v. GERMANY
 ​         ItemID : 001-200442
 ​         Outcome: No Violation  |  Year: 2020)
-​         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-200442%22]}
+​         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-200442%22]%7D
 ​    
       2. [0.3843] Importance: 3
          Case   : CASE OF P.N. v. GERMANY
          ItemID : 001-202758
          Outcome: No Violation  |  Year: 2020)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-202758%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-202758%22]%7D
     
       3. [0.3741] Importance: 3
          Case   : CASE OF BENEDIK v. SLOVENIA
          ItemID : 001-182455
          Outcome: Violation  |  Year: 2018)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-182455%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-182455%22]%7D
     
       4. [0.3685] Importance: 4
          Case   : CASE OF SURIKOV v. UKRAINE
          ItemID : 001-170462
          Outcome: Violation  |  Year: 2017)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-170462%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-170462%22]%7D
     
       5. [0.3576] Importance: 3
          Case   : CASE OF CATT v. THE UNITED KINGDOM
          ItemID : 001-189424
          Outcome: Violation  |  Year: 2019)
-         URL    : https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-189424%22]}
+         URL    : https://hudoc.echr.coe.int/eng#%7B%22itemid%22:[%22001-189424%22]%7D
     
     Results saved to /content/rq2_landmark_cases_top_topics.csv
 
@@ -3083,7 +3099,7 @@ Therefore, during further analysis below and for model training later, we have d
 
 
 
-![ScatterText East vs. West](LL5532X_Pt_5_Final_Project_Notebook_Group_1_v4_files/Image 3.png)
+![ScatterText East vs. West](LL5532X_Pt_5_Final_Project_Notebook_Group_1_v4_files/Image%203.png)
 
 As mentioned previously in our ScatterText findings (under EDA Section 5.2), both the full case and Facts sections revealed that words associated with violations frequently involved state military and security operations, including terms like "military", "detainees", "rendition", and "russian". Conversely, non-violation vocabulary shifted toward terms like "vetting" and "RIPA" (Regulation of Investigatory Powers Act), which relate to employment screening and surveillance where states are afforded a wider margin of appreciation.
 

@@ -1,3 +1,19 @@
+---
+title: PyCaret model comparison
+nav_order: 7
+description: "Comparison of 14 PyCaret classifiers on the RQ1 and RQ2 feature sets, grouped by interpretability tier."
+---
+
+{: .note }
+This page is the PyCaret notebook exported to Markdown. It benchmarks PyCaret's 14 default classifiers on the RQ1 (metadata, Facts, Law Clean, combined) and RQ2 (topic) features and explains why the project keeps linear, interpretable models. Source: [`notebooks/05_final_project_pycaret_v1.ipynb`](https://github.com/RiniPi/LL5532X/blob/main/notebooks/05_final_project_pycaret_v1.ipynb).
+
+<details open markdown="block">
+  <summary>Table of contents</summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 Group No: 1 
 Group Members: Amanda Lim Jin Mei, Nicha Nutchayangkul, Rini Pinasthika, Sophia Emily Lin
 Course/Module: LL5532X
