@@ -5,7 +5,9 @@ Amanda Lim Jin Mei · Nicha Nutchayangkul · Rini Pinasthika · Sophia Emily Lin
 
 Can the outcome of a European Court of Human Rights judgment under **Article 8** (right to respect for private and family life, home and correspondence) be predicted from its text? This project studies 1,265 Article 8 judgments from 2010 to 2023 (982 Violation, 283 No Violation) using supervised classification, topic modelling and word embeddings.
 
-**Start here:** the [final web presentation](web/final/LL5532X_Pt_5_Final_Project_Notebook_Group_1_v4.md), which is the final notebook rendered as Markdown.
+**Project website:** <https://rinipi.github.io/LL5532X/>, with findings, methods, the research journey and the full rendered notebook.
+
+**Start here in the repo:** the [final web presentation](web/final/LL5532X_Pt_5_Final_Project_Notebook_Group_1_v4.md), which is the final notebook rendered as Markdown.
 
 ## Research questions
 
@@ -40,8 +42,16 @@ Can the outcome of a European Court of Human Rights judgment under **Article 8**
 ├── web/                             Notebooks exported to Markdown (Part 6)
 │   ├── final/                           Final notebook + its figure folder
 │   └── pycaret_web_presentation_v1.md
+├── index.md, findings.md, methods.md,
+│   research-journey.md, code-and-data.md,
+│   references.md                    Website pages (GitHub Pages)
+├── _config.yml, _sass/              Website configuration and styling
 └── requirements.txt
 ```
+
+## Website
+
+The site is built by GitHub Pages with Jekyll and the [Just the Docs](https://just-the-docs.com/) theme. To publish it, go to **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, and select **`main`** and **`/ (root)`**. `_config.yml` excludes data, models, raw notebooks and `docs/` from the published site. The *Check website build* workflow builds the site on every pull request so errors show up before merging.
 
 ## Running the notebooks
 

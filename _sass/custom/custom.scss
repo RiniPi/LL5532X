@@ -1,0 +1,25 @@
+// Site-wide tweaks for the Just the Docs theme.
+
+// Wide tables exported from pandas / PyCaret scroll sideways instead of
+// breaking the page layout.
+.main-content table.dataframe,
+.main-content table[id^="T_"],
+.main-content div > table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+// Figures fill the content column but never stretch past their own size.
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+// Long notebook outputs (indented code blocks) get a height cap.
+.main-content pre {
+  max-height: 32rem;
+  overflow: auto;
+}

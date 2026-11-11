@@ -1,0 +1,61 @@
+# Builds the GitHub Pages site the same way GitHub Pages does and reports any
+# errors. It does not deploy: publishing is done by GitHub Pages itself
+# (Settings -> Pages -> Deploy from a branch -> main / (root)).
+name: Check website build
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build with Jekyll (GitHub Pages settings)
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Check internal links and images
+        run: |
+          set -e
+          sudo chown -R "$(id -u)" _site || true
+          python3 - <<'PY'
+          import os, re, sys, urllib.parse
+          root = "_site"
+          bad = []
+          for dp, _, fs in os.walk(root):
+              for f in fs:
+                  if not f.endswith(".html"):
+                      continue
+                  p = os.path.join(dp, f)
+                  html = open(p, encoding="utf-8", errors="ignore").read()
+                  for ref in re.findall(r'(?:href|src)="([^"#?]+)', html):
+                      if re.match(r"^(https?:|mailto:|data:|//)", ref):
+                          continue
+                      ref = urllib.parse.unquote(ref)
+                      if ref.startswith("/"):
+                          # strip the project-site prefix, e.g. /LL5532X/
+                          parts = ref.lstrip("/").split("/", 1)
+                          target = os.path.join(root, parts[1] if len(parts) > 1 else "")
+                          if not os.path.exists(target) and not os.path.exists(os.path.join(root, ref.lstrip("/"))):
+                              bad.append((p, ref))
+                              continue
+                      else:
+                          target = os.path.normpath(os.path.join(dp, ref))
+                          if not os.path.exists(target):
+                              bad.append((p, ref))
+          for p, ref in bad:
+              print(f"Broken link in {p}: {ref}")
+          print(f"{len(bad)} broken internal link(s)")
+          sys.exit(1 if bad else 0)
+          PY
+      - name: Site size
+        run: du -sh _site
