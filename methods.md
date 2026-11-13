@@ -1,6 +1,6 @@
 ---
 title: Data & methods
-nav_order: 3
+nav_order: 4
 description: "Corpus, preprocessing, experimental design and evaluation for the ECtHR Article 8 NLP project."
 ---
 
@@ -36,7 +36,7 @@ The EDA changed the project more than any model did. Each finding became a desig
 | Finding | Evidence | Design rule |
 |:--|:--|:--|
 | **Severe class imbalance** | 78% violation. Admissibility filtering means weak cases never reach a judgment | Use **macro-F1**, not accuracy, and balanced class weights throughout |
-| **Geographic concentration** | Russia alone is about 27% of the corpus, with about 94% violation | Treat respondent state as a **bias risk**, not just a feature |
+| **Geographic concentration** | Russia: 342 of the 1,265 modelling cases (27%; 345 in the full 1,321-row extract), about 94% violation | Treat respondent state as a **bias risk**, not just a feature |
 | **Structural leakage** | Article 41 (just satisfaction) appears only when a violation is found; 8 + 41 is the most common article pairing | Separate remedy language from reasoning, and test Facts and Law separately |
 | **Genuine narrative signal** | Violation facts use coercive state vocabulary (*detention, surveillance, seizure, expulsion*); no-violation facts use procedural, domestic-remedy language | Test the Facts section alone; build a custom stop-word list for universal doctrinal terms |
 

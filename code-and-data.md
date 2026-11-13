@@ -56,7 +56,7 @@ Judgments are public documents of the European Court of Human Rights, published 
 | Folder | Contents |
 |:--|:--|
 | [`results/final/eda/`](https://github.com/RiniPi/LL5532X/tree/main/results/final/eda) | Shifterator and fighting-words figures |
-| [`results/final/rq1/`](https://github.com/RiniPi/LL5532X/tree/main/results/final/rq1) | Metadata leaderboard, text-arm scores, confusion matrices, top predictive terms |
+| [`results/final/rq1/`](https://github.com/RiniPi/LL5532X/tree/main/results/final/rq1) | Metadata leaderboard, text-arm scores, confusion matrices, top predictive terms. `rq1_three_arm_comparison_corrected.png` replaces the notebook chart, which plotted the V2 score on the V3 bar; `rq1_leakage_ladder.png` was added for the website |
 | [`results/final/rq2/`](https://github.com/RiniPi/LL5532X/tree/main/results/final/rq2) | NMF topic descriptors, heatmap, topic-SVM results and feature importance |
 | [`results/final/rq3/`](https://github.com/RiniPi/LL5532X/tree/main/results/final/rq3) | Cross-region scores, confusion matrices, misclassification analysis |
 | [`results/final/rq4/`](https://github.com/RiniPi/LL5532X/tree/main/results/final/rq4) | Drift scores, t-SNE plots, nearest-neighbour tables, concordances |
