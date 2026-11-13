@@ -1,6 +1,6 @@
 ---
 title: Research journey
-nav_order: 4
+nav_order: 5
 description: "How the project's questions and design decisions changed from the original proposal to the final findings."
 ---
 
@@ -36,7 +36,7 @@ Exploratory analysis changed the project more than any model did. It turned up f
 | EDA finding | Evidence | Design rule it produced |
 |---|---|---|
 | **Severe class imbalance** | 78% violation (982 V / 283 NV). The admissibility filter produces survivor bias, because weak cases never reach a judgment | A dummy "always violation" classifier scores about 78% accuracy, so **use macro-F1, not accuracy**. Use balanced class weights throughout |
-| **Geographic concentration** | Russia: 342 cases (27%), about 94% violation, more than twice Ukraine's count | **Treat respondent country as a bias risk**, not just a feature. Watch for a "Russia effect" |
+| **Geographic concentration** | Russia: 342 of the 1,265 modelling cases (27%; 345 in the full extract), about 94% violation, more than twice Ukraine's count | **Treat respondent country as a bias risk**, not just a feature. Watch for a "Russia effect" |
 | **Structural leakage** | Most common article pairings: 8+41 (91 cases) and 8+35+41 (76). Article 41 (just satisfaction) appears only when a violation is found | The document already encodes its outcome. **Remedy language must be separated from reasoning**, and Facts and Law must be tested separately |
 | **Genuine narrative signal** | Shifterator word-shift and ScatterText: violation facts use coercive state vocabulary (*detention, surveillance, seizure, expulsion*). No-violation facts use procedural and domestic-remedy language | There is a real signal to find. **Test the Facts section alone** as an honest, leakage-free estimate. Build a **custom stop-word list** for universal doctrinal terms ("necessary", "margin") |
 

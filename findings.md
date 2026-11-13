@@ -1,13 +1,13 @@
 ---
 title: Findings
-nav_order: 2
+nav_order: 3
 description: "Results for the four research questions: text vs metadata, topic themes, cross-regional generalisation and semantic drift in ECtHR Article 8 judgments."
 ---
 
 # Findings
 {: .no_toc }
 
-Four research questions, each built on the last. Scores are macro-F1 under 5-fold stratified cross-validation unless stated. Every number and figure here comes from the [full analysis notebook](web/final/LL5532X_Pt_5_Final_Project_Notebook_Group_1_v4.md).
+Four research questions, each built on the last. For how the models were stress-tested (leakage, bias, error analysis), see [Evaluating the model](evaluation.md). Scores are macro-F1 under 5-fold stratified cross-validation unless stated. Every number and figure here comes from the [full analysis notebook](web/final/LL5532X_Pt_5_Final_Project_Notebook_Group_1_v4.md).
 {: .fs-5 .fw-300 }
 
 <details open markdown="block">
@@ -172,7 +172,7 @@ A portable Article 8 classifier would need a geographically balanced corpus, fre
 
 **Policy.** Country-specific clusters suggest some violations are systemic. The NMF topic map could help target structural reform and the Committee of Ministers' supervision of execution, rather than treating each judgment in isolation.
 
-**Ethical.** A deployed model could discourage meritorious applications: the Facts-section SVM has a no-violation recall of only 0.35. A country feature risks entrenching inequality in access to Convention protection. And a prediction tool used in legal practice would itself have to meet the Article 8 standard of being "in accordance with the law": accessible, foreseeable, explainable and open to challenge.
+**Ethical.** A deployed model would mislead applicants: the Facts-section SVM has a no-violation recall of only 0.35, so it tells two in three applicants who will lose that they are likely to win. A country feature risks entrenching inequality in access to Convention protection. And a prediction tool used in legal practice would itself have to meet the Article 8 standard of being "in accordance with the law": accessible, foreseeable, explainable and open to challenge.
 
 ## Limitations
 

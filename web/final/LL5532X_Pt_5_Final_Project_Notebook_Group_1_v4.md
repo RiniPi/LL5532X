@@ -1370,6 +1370,9 @@ Verdict
 
 
 ![png](LL5532X_Pt_5_Final_Project_Notebook_Group_1_v4_files/LL5532X_Pt_5_Final_Project_Notebook_Group_1_v4_101_1.png)
+
+{: .caution }
+**Correction:** this chart labels the middle bar "Text/V3LawClean" but plots the best text score overall (V2 Law Full, 0.904). The V3 Law Clean score is 0.870, as the analysis below states. See the [corrected chart](../../results/final/rq1/rq1_three_arm_comparison_corrected.png).
     
 
 

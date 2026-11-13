@@ -2,11 +2,12 @@
 # Build: GitHub Pages (Settings -> Pages -> Deploy from a branch -> main / (root))
 # Theme: Just the Docs, loaded as a remote theme (supported by GitHub Pages)
 
-title: "Predicting Privacy"
+title: "Beyond Accuracy"
 description: >-
-  An NLP analysis of 1,265 European Court of Human Rights judgments under
-  Article 8 (2010–2023): outcome prediction, topic modelling, cross-regional
-  generalisation and semantic drift. LL5532X Group Project, Group 1.
+  Beyond Accuracy (Predicting Privacy): model evaluation, data leakage
+  detection, error analysis and responsible AI in an NLP study of 1,265
+  European Court of Human Rights Article 8 judgments (2010–2023).
+  LL5532X Group Project, Group 1.
 lang: en-GB
 
 remote_theme: just-the-docs/just-the-docs@v0.10.1

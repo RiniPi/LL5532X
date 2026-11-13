@@ -1,11 +1,21 @@
-# Predicting Privacy: An NLP Analysis of ECHR Article 8 Judgments
+# Beyond Accuracy — Predicting Privacy: An NLP Analysis of ECHR Article 8 Judgments
 
-**LL5532X Group Project (Data Investigation), Group 1**
-Amanda Lim Jin Mei · Nicha Nutchayangkul · Rini Pinasthika · Sophia Emily Lin
+**LL5532X Group Project (Data Investigation), Group 1** · Jan – Apr 2026
+
+| Member | Role |
+|:--|:--|
+| Rini Pinasthika | Team lead: research questions, methods and pipeline; RQ4 semantic drift |
+| Sophia Emily Lin | RQ1: text vs metadata outcome prediction |
+| Nicha Nutchayangkul | RQ2: topic modelling |
+| Amanda Lim Jin Mei | RQ3: cross-regional generalisation |
+
+> **Key finding:** the best model scored a macro-F1 of 0.904, but part of that was data leakage from Article 41 remedy text in the Law section. On the Facts section alone, the honest score is 0.694. See [Evaluating the model](https://rinipi.github.io/LL5532X/evaluation.html).
+
+**Skills shown:** model evaluation · data leakage detection · error analysis · bias analysis · responsible AI · NLP (TF-IDF, NMF, Word2Vec)
 
 Can the outcome of a European Court of Human Rights judgment under **Article 8** (right to respect for private and family life, home and correspondence) be predicted from its text? This project studies 1,265 Article 8 judgments from 2010 to 2023 (982 Violation, 283 No Violation) using supervised classification, topic modelling and word embeddings.
 
-**Project website:** <https://rinipi.github.io/LL5532X/>, with findings, methods, the research journey and the full rendered notebook.
+**Project website:** <https://rinipi.github.io/LL5532X/>, with the evaluation story, findings, methods, the research journey and the full rendered notebook.
 
 **Start here in the repo:** the [final web presentation](web/final/LL5532X_Pt_5_Final_Project_Notebook_Group_1_v4.md), which is the final notebook rendered as Markdown.
 
